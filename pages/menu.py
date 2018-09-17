@@ -73,10 +73,15 @@ class Menu(BasePage):
         try:
             if not son:  # 没有子菜单
                 self.click_parent(parent)
-                return self.find_element(*base.tab[parent][parent]).text  # 返回tab名称
+                # 返回tab名称\链接href
+                return self.find_element(*base.tab[parent][parent]).text
             else:  # 存在子菜单
                 self.click_parent(parent)
                 self.click_son(parent, son)
-                return self.find_element(*base.tab[son][son]).text  # 返回tab名称
+                # 返回tab名称\链接href
+                return self.find_element(*base.tab[son][son]).text
         except BaseException as e:
             print u'打开菜单失败！', parent, son, e
+
+
+

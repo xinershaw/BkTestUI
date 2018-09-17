@@ -34,16 +34,35 @@ menu = {
         u'父菜单': (By.LINK_TEXT, u'用户管理'),
         u'单纯仓配入库方': (By.LINK_TEXT, u'单纯仓配入库方'),
         u'仓储服务商': (By.LINK_TEXT, u'仓储服务商'),
-        u'配送承运商': (By.LINK_TEXT, u'配送承运商')
+        u'配送承运商': (By.LINK_TEXT, u'配送承运商'),
+        u'供应商': (By.LINK_TEXT, u'供应商')
          },
     u'平台基础信息': {
         u'父菜单': (By.LINK_TEXT, u'平台基础信息'),
         u'商品基础数据库':(By.LINK_TEXT, u'商品基础数据库'),
         u'企业信息': (By.LINK_TEXT, u'企业信息'),
         },
+    u'订货系统': {
+        u'父菜单': (By.LINK_TEXT, u'订货系统'),
+        u'订单管理': (By.LINK_TEXT, u'订单管理'),
+        u'商品分类': (By.LINK_TEXT, u'商品分类'),
+        u'客户管理': (By.LINK_TEXT, u'客户管理'),
+        u'客户等级': (By.LINK_TEXT, u'客户等级'),
+        u'业务员管理': (By.LINK_TEXT, u'业务员管理'),
+        u'归属区域': (By.LINK_TEXT, u'归属区域'),
+        u'潜在客户': (By.LINK_TEXT, u'潜在客户'),
+        u'商城首页': (By.LINK_TEXT, u'商城首页'),
+        u'自定义页面': (By.LINK_TEXT, u'自定义页面')
+    },
+    u'财务管理': {
+        u'父菜单': (By.LINK_TEXT, u'财务管理'),
+        u'订货供应商结算': (By.LINK_TEXT, u'订货供应商结算'),
+        u'代收货款回款': (By.LINK_TEXT, u'代收货款回款'),
+    },
     u'单纯仓配': {
         u'父菜单': (By.LINK_TEXT, u'单纯仓配'),
         u'商品信息': (By.LINK_TEXT, u'商品信息'),
+
     },
 }
 

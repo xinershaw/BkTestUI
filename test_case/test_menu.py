@@ -18,7 +18,8 @@ class CaseMenu(unittest.TestCase):
 
     def assert_page_source(self, menu_name, page_source):
         try:
-            self.assertNotIn(u'服务器错误', page_source)
+            key_word = [u'服务器错误', u'未将对象引用到', 'Not Found', 'InnerError', u'系统异常', 'noright', 'NoRight']
+            self.assertNotIn(key_word, page_source)
         except AssertionError as e:
             print menu_name, u'打开此页面报错！', e
 
